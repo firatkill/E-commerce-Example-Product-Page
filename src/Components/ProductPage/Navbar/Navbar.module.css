@@ -1,0 +1,75 @@
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 85px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+.listGroup {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.brand {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  opacity: 0.8;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.listItem {
+  margin: 0;
+  padding: 0;
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 10px;
+}
+a {
+  color: unset;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.listItem:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.customer {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.cartIcon {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartIcon:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.profileIcon {
+  margin-left: 1rem;
+  border: 1px solid transparent;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.profileIcon img {
+  width: 50px;
+  height: 50px;
+}
+.profileIcon:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

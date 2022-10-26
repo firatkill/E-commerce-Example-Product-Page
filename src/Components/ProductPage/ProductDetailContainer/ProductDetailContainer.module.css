@@ -1,0 +1,10 @@
+.ProductDetailContainer {
+  padding-top: 8rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
